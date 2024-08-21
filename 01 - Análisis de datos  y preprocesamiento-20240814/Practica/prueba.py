@@ -66,3 +66,19 @@ print(arr[::2])  # Slice con paso de 2
 # Modificar una sección del array
 arr[1:3] = [99, 88]
 print(arr)
+
+import pandas as pd
+
+  # Crear el DataFrame
+data = {'Nombre': ['Juan', 'María', 'Pedro', 'José'],
+        'Edad': [20, 26, 18, 22],
+        'País': ['Argentina', 'Peru', 'Brasil', 'Chile']}
+  
+df = pd.DataFrame(data)
+
+  # Imprimir los nombres de las columnas
+print(df.columns)
+
+  # Guardar en un archivo con tabulador como separador
+df.to_csv('data_tab.tsv', sep='\t', index=False)
+print('exito')
