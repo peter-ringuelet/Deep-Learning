@@ -46,7 +46,7 @@ Los diccionarios son colecciones de pares clave-valor, desordenados y mutables.
 mi_diccionario = {'a': 1, 'b': 2, 'c': 3}
 
 # Recorrer el diccionario e imprimir sus valores
-for clave, valor en mi_diccionario.items():
+for clave, valor in mi_diccionario.items():
     print(f"Clave: {clave}, Valor: {valor}")
 ```
 
@@ -58,7 +58,7 @@ lista1 = [1, 2, 3]
 lista2 = ['a', 'b', 'c']
 
 # Recorrer ambas listas simultáneamente
-for elemento1, elemento2 en zip(lista1, lista2):
+for elemento1, elemento2 in zip(lista1, lista2):
     print(f"Elemento de lista1: {elemento1}, Elemento de lista2: {elemento2}")
 ```
 
