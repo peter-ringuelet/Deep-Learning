@@ -24,31 +24,31 @@ mi_tupla = (1, 2, 3, 4, 5)
 # Recorrer la tupla e imprimir sus valores
 for elemento in mi_tupla:
     print(elemento)
-cierro bash
+```
 
 ### Conjuntos
 Los conjuntos son colecciones no ordenadas y sin elementos duplicados.
 
-abro bash
+```bash
 # Ejemplo de conjunto
 mi_conjunto = {1, 2, 3, 4, 5}
 
 # Recorrer el conjunto e imprimir sus valores
 for elemento in mi_conjunto:
     print(elemento)
-cierro bash
+```
 
 ### Diccionarios
 Los diccionarios son colecciones de pares clave-valor, desordenados y mutables.
 
-abro bash
+```bash
 # Ejemplo de diccionario
 mi_diccionario = {'a': 1, 'b': 2, 'c': 3}
 
 # Recorrer el diccionario e imprimir sus valores
 for clave, valor en mi_diccionario.items():
     print(f"Clave: {clave}, Valor: {valor}")
-cierro bash
+```
 
 ## Ejercicio 2: Recorrer dos listas simultáneamente con `zip`
 
@@ -60,7 +60,7 @@ lista2 = ['a', 'b', 'c']
 # Recorrer ambas listas simultáneamente
 for elemento1, elemento2 en zip(lista1, lista2):
     print(f"Elemento de lista1: {elemento1}, Elemento de lista2: {elemento2}")
-cierro bash
+```
 
 ## Ejercicio 3: Función para eliminar elementos duplicados en una lista
 
@@ -73,11 +73,11 @@ def eliminar_duplicados(lista):
 lista_con_duplicados = [1, 2, 2, 3, 4, 4, 5]
 lista_sin_duplicados = eliminar_duplicados(lista_con_duplicados)
 print(lista_sin_duplicados)
-cierro bash
+```
 
 ## Ejercicio 4: Función para calcular la distancia entre dos puntos (2D)
 
-abro bash
+```bash
 import math
 
 def calcular_distancia(punto1, punto2):
@@ -89,7 +89,7 @@ puntoA = (1, 2)
 puntoB = (4, 6)
 distancia = calcular_distancia(puntoA, puntoB)
 print(f"La distancia entre {puntoA} y {puntoB} es {distancia}")
-cierro bash
+```
 
 ## Ejercicio 5: Slices en listas
 
@@ -114,4 +114,4 @@ print(sublista)  # Salida: [30, 40, 50, 60]
 # Obtener un slice con un paso de 2
 sublista = mi_lista[::2]
 print(sublista)  # Salida: [10, 30, 50]
-cierro bash
+```
