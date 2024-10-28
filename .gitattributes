@@ -1,3 +1,11 @@
 *.keras filter=lfs diff=lfs merge=lfs -text
 *.h5 filter=lfs diff=lfs merge=lfs -text
 Datos-Fuentes/Datos/creditcard.csv filter=lfs diff=lfs merge=lfs -text
+.zip filter=lfs diff=lfs merge=lfs -text
+*.zip filter=lfs diff=lfs merge=lfs -text
+\# filter=lfs diff=lfs merge=lfs -text
+Esto filter=lfs diff=lfs merge=lfs -text
+rastreará filter=lfs diff=lfs merge=lfs -text
+todos filter=lfs diff=lfs merge=lfs -text
+los filter=lfs diff=lfs merge=lfs -text
+archivos filter=lfs diff=lfs merge=lfs -text
